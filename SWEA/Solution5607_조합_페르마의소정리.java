@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Solution5607 {
+public class Solution5607_조합_페르마의소정리 {
 
 	static int T = 1234567891;
 	static int TC,N,R;

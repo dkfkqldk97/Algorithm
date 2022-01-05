@@ -8,13 +8,13 @@ import java.util.StringTokenizer;
 /*
  * bfs
  */
-public class Solution1953_탕주범검거_bfs {
+public class Solution1953_탈주범검거_bfs{
 
 	static int TC,N,M,r,c,time, ans;
 	static int[][] map;
 	static boolean[][] visited;
 	static int[][] pipe;
-	static int[][] dir = { {-1,0}, {0,-1}, {1,0}, {0,1} } ; //상 좌 하 우
+	static int[][] dir = { {-1,0}, {0,-1}, {1,0}, {0,1} } ; //�긽 醫� �븯 �슦
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -80,12 +80,12 @@ public class Solution1953_탕주범검거_bfs {
 				int r = cur[0];
 				int c = cur[1];
 				
-				int[] curPipe = pipe[map[r][c]]; //어떤방향으로 갈 수 있는지
+				int[] curPipe = pipe[map[r][c]]; //�뼱�뼡諛⑺뼢�쑝濡� 媛� �닔 �엳�뒗吏�
 				
 				
 				
 				for(int d=0; d<4; d++) {
-					if(curPipe[d]==1) { //해당방향으로 가는경우
+					if(curPipe[d]==1) { //�빐�떦諛⑺뼢�쑝濡� 媛��뒗寃쎌슦
 						
 						int nr = r+dir[d][0];
 						int nc = c+dir[d][1];

@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Solution2805_³óÀÛ¹°¼öÈ®ÇÏ±â {
+public class Solution2805_ë†ì‘ë¬¼ìˆ˜í™•í•˜ê¸° {
 
 	static int TC, N;
 	static int[][] farm;
@@ -18,7 +18,7 @@ public class Solution2805_³óÀÛ¹°¼öÈ®ÇÏ±â {
 			N = Integer.parseInt(br.readLine());
 			farm = new int[N][N];
 			
-			//ÀÔ·ÂÃ³¸®
+			//ï¿½Ô·ï¿½Ã³ï¿½ï¿½
 			for(int i=0; i<N; i++) {
 				char[] input = br.readLine().toCharArray();
 				for(int j=0; j<N; j++) {

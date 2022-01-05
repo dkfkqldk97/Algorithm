@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  * 
  */
 
-public class Solution1210 {
+public class Solution1210_Ladder {
 	
 
 	

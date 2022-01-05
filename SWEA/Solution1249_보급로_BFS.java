@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Solution1249_보급로_bfs {
+public class Solution1249_보급로_BFS{
 
 	static int TC, N;
 	static int map[][];

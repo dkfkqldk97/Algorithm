@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
  * 부모와 자식에 나를 제외한 모든 노드가 연결되어 있으면 된다
  * ->
  */
-public class Solution5643_키순서_김정연 {
+public class Solution5643_키순서 {
 
 	static int TC,N,M;
 	static boolean[] visited;
