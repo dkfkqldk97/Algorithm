@@ -6,7 +6,7 @@ import java.util.Queue;
 
 public class Main5555_반지 {
 	
-	static char[] find;
+	static String find;
 	static int N;
 	static char[][] input;
 	
@@ -16,33 +16,23 @@ public class Main5555_반지 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		find = br.readLine().toCharArray();
+		find = br.readLine();
+		
 		N = Integer.parseInt(br.readLine());
 		input = new char[N][10];
-		queue = new LinkedList<Character>();
 		result = 0;
 		
 		for(int i=0; i<N; i++) {
 			input[i] = br.readLine().toCharArray();
 			find(input[i]);
 		}
-		
-//		System.out.println(Arrays.toString(find));
-		
+
+		System.out.println(result);
+	
 	}
 
 	private static void find(char[] arr) {
-		int index = 0;
 		
-		for(int i=0; i<10; i++) {
-			if(find[index]==arr[i]) {
-				index++;
-				
-				
-			}else {
-				queue.offer(arr[i]);
-			}
-		}
 	}
 
 }
